@@ -11,20 +11,19 @@ export default function App() {
       <Box sx={{ my: 4 }}>
         <Paper
           sx={{
-            bgcolor: "background.header",
             minHeight: 300,
             p: 2
           }}
         >
           <Typography
-            color="text.inverse"
+            color="text.primary"
             variant="h1"
             component="h3"
             gutterBottom
           >
             Create React App example
           </Typography>
-          <Divider sx={{ bgcolor: "grey.400" }} />
+          <Divider sx={{ bgcolor: "background.border" }} />
         </Paper>
       </Box>
     </Container>
