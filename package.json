@@ -9,7 +9,7 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "@availity/design-tokens": "0.3.8",
+    "@availity/design-tokens": "latest",
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
     "@mui/material": "latest",
@@ -18,11 +18,7 @@
     "react-scripts": "latest"
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [">0.2%", "not dead", "not op_mini all"],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
